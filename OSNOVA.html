@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru-RU"> 
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Пример сайта</title>   
+
+<meta name="description" content="Insert Your Site Description" /> 
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+<link href="_include/css/main.css" rel="stylesheet">
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="_include/css/fonts.css" rel="stylesheet">
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="#">
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+<script src="_include/js/modernizr.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>  
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="">Регистрация</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+
+<div id="work" class="page">
+	<div class="container">
+
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">Наш проект</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+        	<div class="span3">
+ 
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Тип показа</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">Все проекты</a></li>
+                        <li><a href="#filter" data-option-value=".photography">Фото</a></li>
+                        <li><a href="#filter" data-option-value=".video">Видео</a></li>
+                        <li><input href="#filter" data-option-value=".search" type="text" size="40"></li>
+                         <li><button onclick="myFOO()" class="button">Найти</button></li>
+                    </ul>
+                </nav>
+
+            </div>
+<script>
+var theNum = "0";
+let arr = ['https://sun9-51.userapi.com/c845523/v845523742/2d1be/yWTKBgIoM-o.jpg',
+   'https://sun9-14.userapi.com/c858328/v858328194/196260/hbr65qwZQ98.jpg',];
+   arr1 = ['https://sun9-24.userapi.com/c638919/v638919446/5fc51/lJU3dUtmU0w.jpg',
+   'https://sun9-63.userapi.com/c849336/v849336773/d22be/Yaq3lOC5WUw.jpg',];
+   arr2 = ['https://sun9-41.userapi.com/c854020/v854020007/1280e5/ZDiNSYmvYY0.jpg',
+   'https://sun9-2.userapi.com/c840632/v840632585/74edf/J0BcR2aOf3U.jpg',];
+   arr3 = ['https://vk.com/video_ext.php?oid=84845634&id=456239249&hash=22c3f7d2c2eaa6f5',
+   'https://vk.com/video_ext.php?oid=-170298352&id=456239256&hash=2895fb6fa0125d36',];
+   arr4 = ['https://vk.com/video_ext.php?oid=-64434153&id=456245800&hash=d6b808189f9f113e',
+   'https://vk.com/video_ext.php?oid=136868993&id=456239394&hash=1535eb03bef3805a',];
+function myFOO()
+{
+if(theNum == arr.length){theNum="0";}
+change_image_1.src=arr[theNum];
+change_image_2.src=arr1[theNum];
+change_image_3.src=arr2[theNum];
+change_video_1.src=arr3[theNum];
+change_video_2.src=arr4[theNum];
+theNum++;
+}
+</script>
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+
+                        	<li class="item-thumbs span3 photography">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Мост" href="https://img3.akspic.ru/image/128972-gorod-gorodskoj_rajon-orientir-otel-metropoliya-2048x1152.jpg">
+                                </a>
+                                <img id="change_image_1" src="https://img3.akspic.ru/image/128972-gorod-gorodskoj_rajon-orientir-otel-metropoliya-2048x1152.jpg">
+                            </li>
+
+                        	<li class="item-thumbs span3 video">
+                            	
+                                <iframe id="change_video_1" src="https://vk.com/video_ext.php?oid=84845634&id=456239108&hash=1e6c5633466745d7" width="250" height="150" frameborder="0" allowfullscreen></iframe>
+                            </li>
+
+                        	<li class="item-thumbs span3 photography">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Мост" href="https://arte1.ru/images/magictoolbox_cache/ae45ace8bf66c6f547c83637b27ac2e3/8/6/863/thumb975x675/1037501619/12165.jpg">
+                                </a>
+                                <img id="change_image_2" src="https://arte1.ru/images/magictoolbox_cache/ae45ace8bf66c6f547c83637b27ac2e3/8/6/863/thumb975x675/1037501619/12165.jpg">
+                            </li>
+
+                        	<li class="item-thumbs span3 photography">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Мост" href="https://st.depositphotos.com/1035350/2322/i/950/depositphotos_23225970-stock-photo-busan-south-korea.jpg">
+                                </a>
+                                <img id="change_image_3" src="https://st.depositphotos.com/1035350/2322/i/950/depositphotos_23225970-stock-photo-busan-south-korea.jpg">
+                            </li>
+
+                        	<li class="item-thumbs span3 video">
+                            	
+                                <iframe id="change_video_2" src="https://vk.com/video_ext.php?oid=84845634&id=456240484&hash=bba2d30ede46c2d0" width="250" height="150" frameborder="0" allowfullscreen></iframe>
+                            </li>
+
+                        </ul>
+                    </section>
+                    
+            	</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="about" class="page-alternate">
+<div class="container">
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Наша команда</h2>
+                <h3 class="title-description">Участники</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="">
+                </div>
+                <img src="https://sun9-51.userapi.com/c845523/v845523742/2d1be/yWTKBgIoM-o.jpg">
+            </div>
+            <h3 class="profile-name">Мягков Игорь</h3>
+            <p class="profile-description">Капитан команды</p>
+            <div class="social">
+            </div>
+        </div>
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="">
+                </div>
+                <img src="https://sun9-34.userapi.com/c858132/v858132717/1fbe6c/i6lMmcaieHE.jpg">
+            </div>
+            <h3 class="profile-name">Петров Максим</h3>
+            <p class="profile-description">Отвечает за распознавание лиц!</p>
+            <div class="social">
+            </div>
+        </div>
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div >
+                    <img src="https://sun9-14.userapi.com/c858328/v858328194/196260/hbr65qwZQ98.jpg">
+                </div>
+            </div>
+            <h3 class="profile-name">Лукин Артём</h3>
+            <p class="profile-description">Занимался опросом и подготовкой презентации!</p>
+            <div class="social">
+            </div>
+        </div>
+    <div class="row">
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="">
+                </div>
+                <img src="https://sun9-70.userapi.com/c850228/v850228040/1b4fd7/7227BUih_i0.jpg">
+            </div>
+            <h3 class="profile-name">Козарезов Владислав</h3>
+            <p class="profile-description">Отвечает за распознавание лиц!</p>
+            <div class="social">
+            </div>
+        </div>
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="">
+                </div>
+                <img src="https://sun9-58.userapi.com/c858132/v858132717/1fbe62/oJCcaEhOjmg.jpg">
+            </div>
+            <h3 class="profile-name">Черепанов Даниил</h3>
+            <p class="profile-description">Отвечает за поддержание сайта!</p>
+            <div class="social">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+                        <li><a href="https://twitter.com" title="Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="https://www.facebook.com" title="Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="https://plus.google.com" title="Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+	<p class="credits">сделано на хакатон, Горячий холодильник</p>
+</footer>
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main.js"></script> <!-- Default JS -->
+
+</body>
+</html>
